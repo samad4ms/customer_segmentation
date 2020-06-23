@@ -1,8 +1,8 @@
 # customer_segmentation
-Customer segmentation modeling with PCA and Kmeans.
+Customer segmentation modeling with PCA and KMeans.
 
-For this project, I wanted to segment the customers of an actual UK based online store. The dataset contain roughly 500k orders that took place between 01/12/2009 and 09/12/2011.
-Since each row contained an individual transaction, after some EDA, I needed to convert the data to a unique customer level for modeling. 
+For this project, I wanted to segment the customers of an actual UK based online store. The dataset contains roughly 500k orders that took place between 01/12/2009 and 09/12/2011.
+Since each row in the original dataset contained an individual transaction, after some EDA, I needed to convert the data to a unique customer level for modeling. 
 
 After creating the customer level features, I performed PCA to determine how many compenents were actually needed and used the elbow and silhoutte methods to determine the optimal number of clusters to use with KMeans.
 
