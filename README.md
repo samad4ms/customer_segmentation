@@ -8,11 +8,11 @@ After creating the customer level features, I performed PCA to determine how man
 
 Important files in this repo:
 
-1) all_analysis_and_modeling.ipynb
+1) all_analysis_and_modeling.ipynb<br>
 This includes all of the EDA, feature engineering, modeling and data viz. 
 
-2) customer_data.csv
+2) customer_data.csv<br>
 This is the transaction level dataset from the UK based ecommerce store. 
 
-3) customers_master_w_clusters.pkl
+3) customers_master_w_clusters.pkl<br>
 This is the final pickle of the the customer level dataset with the features I engineered and assigned clusters.
